@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<title>Willian de Souza Felisberto</title>
+	<link rel="shortcut icon" type="image/png" href="./imagens/favicon.png" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="./css/material.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/material.min.js"></script>
+	<script src="./js/https.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+</head>
+
+<body>
+	<div class="mdl-layout mdl-js-layout">
+		<div class="mdl-layout__drawer">
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="#Interesses">
+					<i class="material-icons">favorite</i> Interesses</a>
+				<a class="mdl-navigation__link" href="#Qualificações">
+					<i class="material-icons">list</i> Resumo das Qualificações</a>
+				<a class="mdl-navigation__link" href="#Habilidades">
+					<i class="material-icons">star</i> Habilidades</a>
+				<a class="mdl-navigation__link" href="#Educação">
+					<i class="material-icons">school</i> Educação</a>
+				<a class="mdl-navigation__link" href="#Experiências">
+					<i class="material-icons">location_city</i> Experiências</a>
+				<a class="mdl-navigation__link" href="#Projetos">
+					<i class="material-icons">poll</i> Projetos</a>
+			</nav>
+		</div>
+		<header class="mdl-layout__header mdl-layout__header--transparent">
+		</header>
+		<main class="mdl-layout__content">
+			<div class="mdl-shadow--2dp banner-background"></div>
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--6-col mdl-shadow--4dp mdl-color--white personal-info">
+					<div class="avatar-container">
+						<img src="./imagens/perfil.jpg" alt="">
+					</div>
+
+					<h4>Willian de Souza Felisberto</h4>
+					<div>22 anos, Bacharel em TIC - Araranguá - SC</div>
+					<div>
+						<a href="mailto:willianaru@gmail.com" style="text-decoration:none" target="_blank">williansouzafelisberto@gmail.com</a> |
+						<a href="https://github.com/WillFelisberto" style="text-decoration:none" target="_blank">GitHub</a> |
+						<a href="www.linkedin.com/in/willianfelisberto" style="text-decoration:none" target="_blank">Linkedin</a> |
+						<a href="www.facebook.com/WillianFelisberto" style="text-decoration:none" target="_blank">Facebook</a>
+					</div>
+				</div>
+			</div>
+			<script>
+
+				$(document).ready(function () {
+					$("#Interesses").click(function () {
+						$("#Int").slideToggle()
+					});
+				});
+
+			</script>
+			<div class="mdl-grid cards flex-center">
+				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i id="Interesses" class="material-icons">favorite</i>
+					<div id="Int">
+						<h5>Interesses</h5>
+						<div class="mdl-grid">
+							<div class="mdl-cell mdl-cell--6-col">
+								<i id="ttpro" class="material-icons">business</i>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Dev Web</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Dev Javacript</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Back-end</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Front-end</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Pesquisa</span>
+								</span>
+							</div>
+							<div class="mdl-cell mdl-cell--6-col">
+								<i id="ttpes" class="material-icons">mood</i>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Música</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Filmes</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Séries</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Quadrinhos</span>
+								</span>
+								<span class="mdl-chip">
+									<span class="mdl-chip__text">Cozinhar</span>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="mdl-tooltip" data-mdl-for="ttpro">Profissionais</div>
+					<div class="mdl-tooltip" data-mdl-for="ttpes">Pessoais</div>
+				</div>
+
+				<script>
+					$(document).ready(function () {
+						$("#Eu").click(function () {
+							$("#pessoa").slideToggle()
+						});
+					});
+				</script>
+				<script>
+
+					$(document).ready(function () {
+						$("#Qualificações").click(function () {
+							$("#Quali").slideToggle()
+						});
+					});
+
+				</script>
+				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<!-- Qualificações-->
+					<i id="Qualificações" class="material-icons">list</i>
+					<div id="Quali">
+						<h5>Resumo das Qualificações</h5>
+						<div>
+							<p>Graduado em Tecnologias da Informação e Comunicação pela Universidade Federal de Santa Catarina. Desde março 2011
+								até 2017 atuou no setor de TI e administrativo da empresa Mazzuri Modas.</p>
+							<p>Facilidade em adquirir destreza em novas linguagens de programação e gosta de superar desafios.</p>
+						</div>
+					</div>
+				</div>
+				<script>
+
+					$(document).ready(function () {
+						$("#Habilidades").click(function () {
+							$("#Hab").slideToggle()
+						});
+					});
+
+				</script>
+
+				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<!-- Habilidades-->
+					<i id="Habilidades" class="material-icons">star</i>
+					<div id="Hab">
+						<h5>Habilidades</h5>
+						<div class="mdl-grid">
+							<div class="mdl-cell mdl-cell--3-col mdl-cell mdl-cell--3-col">
+								<h6>
+									<i class="material-icons">star</i>Gerais</h6>
+								<div>
+
+									<span id="ttGit" class="mdl-chip">
+										<span class="mdl-chip__text">Git</span>
+									</span>
+									<span id="ttSQL" class="mdl-chip">
+										<span class="mdl-chip__text">MySQL</span>
+									</span>
+
+
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--3-col">
+								<h6>
+									<i class="material-icons">code</i> Programação</h6>
+								<div>
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">C</span>
+									</span>
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">PHP</span>
+									</span>
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">C++</span>
+									</span>
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">JavaScript</span>
+									</span>
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">Java</span>
+									</span>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--3-col">
+								<h6>
+									<i id="Lingua" class="material-icons">important_devices</i> Design</h6>
+								<div>
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">HTML</span>
+									</span>
+
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">CSS</span>
+									</span>
+
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">UX</span>
+									</span>
+
+									<span class="mdl-chip">
+										<span class="mdl-chip__text">UI</span>
+									</span>
+									<span id="ttPS" class="mdl-chip">
+										<span class="mdl-chip__text">Adobe Photoshop</span>
+									</span>
+									<span id="ttCD" class="mdl-chip">
+										<span class="mdl-chip__text">Corel Draw</span>
+									</span>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--3-col">
+								<h6>
+									<i id="Lingua" class="material-icons">language</i> Lingua</h6>
+								<div>
+									Português
+								</div>
+								<div>
+									Inglês - Intermediário
+								</div>
+							</div>
+						</div>
+						<div class="mdl-tooltip" data-mdl-for="ttGit">15%</div>
+						<div class="mdl-tooltip" data-mdl-for="ttSQL">10%</div>
+						<div class="mdl-tooltip" data-mdl-for="ttPS">85%</div>
+						<div class="mdl-tooltip" data-mdl-for="ttCD">90%</div>
+
+					</div>
+				</div>
+				<script>
+
+					$(document).ready(function () {
+						$("#Educação").click(function () {
+							$("#edu").slideToggle()
+						});
+					});
+
+				</script>
+				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i id="Educação" class="material-icons">school</i>
+					<div id="edu">
+						<h5>Educação</h5>
+						<div>
+							<div>
+								<h6> Bacharel em Tecnologias da Informação e Comunicação</h6>
+								<p>Universidade Federal de Santa Catarina - Campus Araranguá - 2013 - 2018</p>
+							</div>
+
+							<!--<h5>Cursos</h5>
+							<div>
+								<div>
+									<h6>Curso de algo</h6>
+									<span> lugar | ano</span>
+								</div>
+							</div> -->
+
+						</div>
+					</div>
+				</div>
+				<script>
+					$(document).ready(function () {
+						$("#Experiências").click(function () {
+							$("#exp").slideToggle()
+						});
+					});
+
+				</script>
+				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<!-- Experiencias-->
+					<i id="Experiências" class="material-icons">location_city</i>
+					<div id="exp">
+						<h5>Experiencias</h5>
+						<div class="mdl-grid">
+							<div class="mdl-cell mdl-cell--4-col">
+								<h5>Centro Acadêmico Livre de Tecnologias da Informação e Comunicação</h5>
+								<p>Representantes dos alunos do curso de TIC na universidade.</p>
+								<span>Presidente - 2016</span>
+							</div>
+							<div class="mdl-cell mdl-cell--4-col">
+								<h5>LABeGIS</h5>
+								<p>Laboratório de Gestão, Inovação e Sustentabilidade.</p>
+								<span>Voluntário - 2017</span>
+							</div>
+							<div class="mdl-cell mdl-cell--4-col">
+								<h5>Mazzuri Modas</h5>
+								<p>Industria e Comercio Atacadista especializada em moda grande.</p>
+								<span>Auxiliar Administrativo - 2011 - 2017</span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<script>
+
+					$(document).ready(function () {
+						$("#Projetos").click(function () {
+							$("#Proj").slideToggle()
+						});
+					});
+
+				</script>
+				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<!-- Projetos-->
+					<i id="Projetos" class="material-icons">poll</i>
+					<div id="Proj">
+						<h5>Projetos</h5>
+						<div class="mdl-grid projects">
+							<div class="mdl-cell mdl-grid">
+								<div>
+									<img src="./imagens/projetos/mazzuri.png" alt="Mazzuri Modas Plus Size">
+								</div>
+								<div class="mdl-cell--8-col">
+									<h6>Mazzuri Modas</h6>
+									<a target="_blank" href="http://www.mazzurimodas.com.br" style="text-decoration:none">www.mazzurimodas.com.br</a>
+
+								</div>
+							</div>
+							<div class="mdl-cell mdl-grid">
+								<div>
+									<img src="./imagens/projetos/gabriel.png" alt="Mazzuri Modas Plus Size">
+								</div>
+								<div class="mdl-cell--8-col">
+									<h6>Gabriel Nascimento</h6>
+									<a target="_blank" href="http://gabrielnascimentooficial.com.br" style="text-decoration:none">www.gabrielnascimentooficial.com.br</a>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
