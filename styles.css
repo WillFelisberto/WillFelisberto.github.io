@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+  background-color: rgb(22, 22, 22);
+  color: #b12828;
+  font-family: monospace;
+  font-weight: bolder;
+  text-shadow: 0 0 20px #b1282891;
+}
+
+body {
+  margin: 0;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.social {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.social :hover {
+  color: white;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #b12828;
+}
+
+.cargo {
+  display: flex;
+  justify-content: flex-end;
+  color: #b12828b8;
+  place-self: flex-end;
+  font-size: 22px;
+}
